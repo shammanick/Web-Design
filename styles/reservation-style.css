@@ -11,3 +11,16 @@
 	text-decoration: none;
     font-weight: normal;
 }
+.button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

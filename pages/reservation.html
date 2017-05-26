@@ -43,12 +43,19 @@
         <br>
         <br>
         <h2> Reservation</h2>
-        <p align= "left">Date:  <input type="date" name="rDate" min="2017-5-22"><br></p>
-        <p align= "left">Time:  <input type="time" name="rTime"><br></p>
-        <p align= "left">Party Size:  <input type="number" name="size" min="1" max="12"><br></p>
-        <p align= "left">Name:  <input type="text" name="size"><br></p>
-        <p align= "left">Phone Number:  <input type="text" name="size"><br></p><br>
-        <button type="button"> Submit</button>
+        <div style="display: inline-block; text-align: left">
+            <p>Date:  <input type="date" name="rDate"><br></p>
+            <p>Time:  <input type="time" name="rTime"><br></p>
+            <p>Party Size:  <input type="number" name="size" min="1" max="12"><br></p>
+            <p>Name:  <input type="text" name="size"><br></p>
+            <p>Phone Number:  <input type="text" name="size"><br></p>
+        </div><br>
+        <button class="button" onclick='Congrats();'>Submit</button>
+        <script>
+            function Congrats(){
+                alert('Your reservation was successfully placed!');
+            }
+        </script>
 	</div>
 
 	<div class = "botmenu">
@@ -63,7 +70,7 @@
 				<li><a href = "careers.html">Careers</a>
 					<li><a href = "underConstruction.html">Gift Cards</a>
 						<li><a href = "contact.html">Contact Us</a>
-							<li><a href = "underConstruction.html"><img src="../pics/FB_Twitter_0.png" alt="SocMedia" height="30" width="80"></a>
+							<li><a href = "#socmedia">Social Media</a>
 							</ul>
 						</div>
 						<div class = "hours">

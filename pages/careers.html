@@ -41,14 +41,28 @@
 	</div>
 
 	<div class="content">
-        <img align = "left" src="../pics/career.jpg" alt="Ones & Zeroes worker" >
-        <p style="font-size:150%;">Love our restaurant? Passionate about food? Join the team at Ones & Zeroes!</p>
-        <p align = "left" style="font-size:100%;">Manager...............................................................
-            <button type="button"> Apply here</button></p>
-        <p align = "left" style="font-size:100%;">Dish Washer.........................................................
-            <button type="button"> Apply here</button></p>
-        <p align = "left" style="font-size:100%;">Cashier.................................................................
-            <button type="button"> Apply here</button></p>
+        <table>
+            <tr id="row1">
+                <td>
+                    <img src="../pics/career.jpg"  width="207" height="309" alt="Worker">
+                </td>
+                <td>
+                    <p style="font-size:150%;">Love our restaurant? Passionate about food? Join the team at Ones & Zeroes!</p>
+                    <p style="font-size:100%;">Manager..............................................................
+                        <button class="button" onclick='Congrats();'>Apply here</button></p>
+                    <p style="font-size:100%;">Dish Washer..........................................................
+                        <button class="button" onclick='Congrats();'>Apply here</button></p>
+                    <p style="font-size:100%;">Cashier..............................................................
+                    <button class="button" onclick='Congrats();'>Apply here</button></p>
+                </td>
+            </tr>
+        </table>
+        Ones & Zeroes looks for a worker who is confident and happy, putting the customer first! We strive to make our food and service as enjoyable as possible and look for individuals who want to be a part of this family. A love for the tech world is a definite plus!
+        <script>
+            function Congrats(){
+                alert('Your application was successfully submitted! Thanks for applying!');
+            }
+        </script>
 	</div>
 
 	<div class = "botmenu">
@@ -63,7 +77,7 @@
 				<li><a href = "careers.html">Careers</a>
 					<li><a href = "underConstruction.html">Gift Cards</a>
 						<li><a href = "contact.html">Contact Us</a>
-							<li><a href = "underConstruction.html"><img src="../pics/FB_Twitter_0.png" alt="SocMedia" height="30" width="80"></a>
+							<li><a href = "#socmedia">Social Media</a>
 							</ul>
 						</div>
 						<div class = "hours">
